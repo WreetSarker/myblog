@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'rchjt#+kco&%x+_p7^+ojpx&031l9vdp9n9kzkve!953tymgjq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['wreet-blog.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['wreet-blog.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
